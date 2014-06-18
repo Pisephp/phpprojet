@@ -1,0 +1,21 @@
+Base de données:
+
+tables
+
+User avec l'admin aussi. Distinction par un boolean sur tous les droits
+Images contenant l'adresse de toute les images. Ces dernieres seront dans un rep images et chaque images sera dans un rep suivant sa catégorie.
+Batiments: Nom, Image, temps de construction, ressources nécessaire pour construction, prod
+Base: nom, coordonnée, Image (idée taille mais pas urgent)
+Bateau: nom, vitesse de déplacement, ressources nécessaires, puissance, temps de construction, défence, pv, stockage
+Défense: nom, ressources nécessaires, puissance, temps de construction
+Ile: Les iles sont reliés à des jours. Chaque ile possèdera des cases: nomjoueur, défence, flotte en stationnement, flotte en déplacement
+unité: il faut faire une table qui indiquera les flottes en déplacment. Il y aura donc le nom du joueur.
+
+idées:
+recherche
+peut etre faire des cases vides
+
+
+Si joueur attaque ile où pas de def= pillage
+Si joueur attaque ile où def. Combat. Si gagnant pillage
+Le pillage prend en fonction du stockage des bateaux.
