@@ -30,6 +30,6 @@ else // Si la session est vide alord on redirige pour se conecter
 	die('<script>location="login/connexion_form.php";</script>');
 }
 
-
+//ceci est un test de refressh
 
 ?>
