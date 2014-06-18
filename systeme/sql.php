@@ -19,4 +19,6 @@ if ($connexion->connect_error) {
 else {
 	//echo $connexion->host_info;
 }
+
+/*test*/
 ?>
