@@ -19,3 +19,23 @@ peut etre faire des cases vides
 Si joueur attaque ile où pas de def= pillage
 Si joueur attaque ile où def. Combat. Si gagnant pillage
 Le pillage prend en fonction du stockage des bateaux.
+
+Bateaux:
+un bateau pour scooter
+Bateau de combat: barque, sloop, frégate, vaisseau de guerre
+transport: contrebandier,galion
+
+Batiments:
+mine: produit du fer
+bucheron/scierie: produit du bois
+voile? maybe
+forgeron: produit des armes
+taverne: produit des marins
+
+chantier naval
+
+défense:
+piece d'artillerie
+tour
+fortin
+place forte
