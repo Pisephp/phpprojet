@@ -27,10 +27,8 @@ transport: contrebandier,galion
 
 Batiments:
 marché: produit de l'or pour que les batiments fonctionne
-mine: produit du fer
+mine/forgeron: produit du fer
 bucheron/scierie: produit du bois
-voile? maybe
-forgeron: produit des armes
 taverne: produit des marins
 
 chantier naval
