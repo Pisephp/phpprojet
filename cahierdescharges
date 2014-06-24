@@ -26,6 +26,7 @@ Bateau de combat: barque, sloop, frégate, vaisseau de guerre
 transport: contrebandier,galion
 
 Batiments:
+marché: produit de l'or pour que les batiments fonctionne
 mine: produit du fer
 bucheron/scierie: produit du bois
 voile? maybe
