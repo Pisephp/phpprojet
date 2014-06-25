@@ -75,8 +75,5 @@ depuis la réserve.
 Lors de l'achevement de la construction, si ce type de batiment n'avait pas encore été construit, une image du batiment
 sera alors rajouté sur celui de l'ile. La production de la ressource lié au batiment sera également modifié.
 
-Idée image: essayer de voir s'il serait possible de faire une image avec tous les batiments directs dessus,
-mais que l'on masque les batiments non présent
-Sinon sela va nous forcer avec une image d'une ile et faire toutes les combinaisons possible avec tout les batiments, cela 
-va etre chiant.
-Si autre idée, je suis preneur :)
+Idée image: toutes les images feront la meme taille. On incrustera les images les une par dessus les autres. Il faudra jouer
+avec les histoires de premier plan, deuxieme plan...... (on travaille avec des calques etc...)
