@@ -49,7 +49,9 @@ On stocke aussi la date où la personne s’est déconnectée.
 Lorsque la personne se reconnecte, on reprend la valeur qui était stocké auxquelles on ajoute la production entre le temps de déconnection et la reconnexion.
 Si un joueur attaque une ile d’un autre joueur, on fait la même chose pour savoir la part que le joueur peut voler. 
 On soustrait ensuite ce qui a été volé et on renvoi une valeur qui sera stocké dans la table.
-En fait, lors du vol d’un joueur par un autre joueur, on fait comme si le joueur se connectait pour calculer ces ressources, et on soustrait ce qui a été pris. Ce qui fait que, lors de la connexion du joueur volé, on partira de ce qui lui reste, afin d’ajouter ce qu’il a gagné entre le temps où il a été volé pour la dernière fois, et sa reconnexion.
+En fait, lors du vol d’un joueur par un autre joueur, on fait comme si le joueur se connectait pour calculer ces ressources,
+et on soustrait ce qui a été pris. Ce qui fait que, lors de la connexion du joueur volé, on partira de ce qui lui reste, 
+afin d’ajouter ce qu’il a gagné entre le temps où il a été volé pour la dernière fois, et sa reconnexion.
 
 A chaque up de bâtiment, la valeur gagnée dans le temps augmente. On l’affiche en temps réel. Dès que déco on stop.
 
@@ -62,3 +64,19 @@ Faire une table avec les différentes infos des batiments : cf cahier des charge
 
 Une ile est relié à un joueur
 
+Batiments:
+dans l'interface du jeu, il y aura un bouton ressources qui donnera une vue sur les batiments construits et les batiments
+que l'on peut construire.
+Chaque batiment a un cout en ressources et une maintenance en or. En échange de quoi, le batiment produira une ressource
+à intervalle régulière.
+
+Lors de l'achat d'un batiment, on a 1 temps de construction et une consommation des ressources nécessaires à sa construction
+depuis la réserve.
+Lors de l'achevement de la construction, si ce type de batiment n'avait pas encore été construit, une image du batiment
+sera alors rajouté sur celui de l'ile. La production de la ressource lié au batiment sera également modifié.
+
+Idée image: essayer de voir s'il serait possible de faire une image avec tous les batiments directs dessus,
+mais que l'on masque les batiments non présent
+Sinon sela va nous forcer avec une image d'une ile et faire toutes les combinaisons possible avec tout les batiments, cela 
+va etre chiant.
+Si autre idée, je suis preneur :)
