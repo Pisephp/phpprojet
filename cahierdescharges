@@ -40,11 +40,15 @@ place forte
 
 Imaginer un système de coordonnée avec plusieurs tableaux
 
-Le joueur possède dans un sa table utilisateur une clé primaire qui est la clé unique de sa case. Sur cette case se trouve une ile que l’on retrouve dans la table Ile.
+Le joueur possède dans un sa table utilisateur une clé primaire qui est la clé unique de sa case. 
+Sur cette case se trouve une ile que l’on retrouve dans la table Ile.
 Sur cette ile, on trouvera une table par bâtiments, par bateau et par défense.
-Dans chacune de ces cases se trouvera le nombre posséder. On retrouve aussi la quantité de ressource. Lorsque la personne se déconnecte, on renvoie la valeur de ce qu’il possédait dans chacune de ses ressources dans la table ile qui stockera cette information. On stocke aussi la date où la personne s’est déconnectée.
+Dans chacune de ces cases se trouvera le nombre posséder. On retrouve aussi la quantité de ressource. 
+Lorsque la personne se déconnecte, on renvoie la valeur de ce qu’il possédait dans chacune de ses ressources dans la table ile qui stockera cette information. 
+On stocke aussi la date où la personne s’est déconnectée.
 Lorsque la personne se reconnecte, on reprend la valeur qui était stocké auxquelles on ajoute la production entre le temps de déconnection et la reconnexion.
-Si un joueur attaque une ile d’un autre joueur, on fait la même chose pour savoir la part que le joueur peut voler. On soustrait ensuite ce qui a été volé et on renvoi une valeur qui sera stocké dans la table.
+Si un joueur attaque une ile d’un autre joueur, on fait la même chose pour savoir la part que le joueur peut voler. 
+On soustrait ensuite ce qui a été volé et on renvoi une valeur qui sera stocké dans la table.
 En fait, lors du vol d’un joueur par un autre joueur, on fait comme si le joueur se connectait pour calculer ces ressources, et on soustrait ce qui a été pris. Ce qui fait que, lors de la connexion du joueur volé, on partira de ce qui lui reste, afin d’ajouter ce qu’il a gagné entre le temps où il a été volé pour la dernière fois, et sa reconnexion.
 
 A chaque up de bâtiment, la valeur gagnée dans le temps augmente. On l’affiche en temps réel. Dès que déco on stop.
